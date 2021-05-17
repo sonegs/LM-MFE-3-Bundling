@@ -1,10 +1,10 @@
 # sonegs-LM-MFE-3-Bundling
 
-Implementar una aplicación simple que:
+# Implementar una aplicación simple que:
 
-Tenga el bundling montado con webpack.
-Muestre un logo (por ejemplo el de lemoncode u otro que queráis).
-Este montada con Typescript.
+# Tenga el bundling montado con webpack.
+# Muestre un logo (por ejemplo el de lemoncode u otro que queráis).
+# Este montada con Typescript.
 Tengo el texto de "hola mundo" estilado con SASS.
 Que muestre un hola mundo desarrollado con React.
 Que tenga una versión de build de producción.
