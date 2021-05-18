@@ -1,12 +1,20 @@
 {
-  "name": "Parcel-Exercises",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "name": "Parcel-Exercises",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "parcel ./src/index.html",
+        "build:prod": "rimraf dist && parcel build ./src/index.html",
+        "start": "rimraf dist && parcel ./src/index.html --open"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "parcel-bundler": "^1.12.5",
+        "rimraf": "^2.7.1",
+        "sass": "^1.32.13",
+        "typescript": "^4.2.4"
+    }
 }

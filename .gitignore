@@ -1,2 +1,6 @@
-node_modules
-dist
+Parcel-Exercises/node_modules
+Parcel-Exercises/dist
+Parcel-Exercises/.cache
+
+Webpack-Exercises/node_modules
+Webpack-Exercises/dist
