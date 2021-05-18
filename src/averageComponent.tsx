@@ -15,9 +15,7 @@ export const AverageComponent = () => {
       <span className={classes.resultBackground}>
         Hello World!
       </span>
-      <div className={`jumbotron ${classes.resultBackground}`}>
-        <h1>Jumbotron students average: {average}</h1>
-      </div>
+      
     </div>
   );
 };

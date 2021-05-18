@@ -13,7 +13,7 @@ export const TotalScoreComponent = () => {
   return (
     <div>
       <span className={classes.resultBackground}>
-        Enviroment var: {totalScore}
+      Enviroment var: {process.env.API_BASE}
       </span>
     </div>
   );
